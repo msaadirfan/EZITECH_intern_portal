@@ -1,0 +1,17 @@
+name: internship_portal
+description: Internship portal UI
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.11.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fl_chart: ^0.68.0       
+  google_fonts: ^6.2.1
+  lucide_icons: ^0.257.0
+flutter:
+  uses-material-design: true

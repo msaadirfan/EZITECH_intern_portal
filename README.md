@@ -1,140 +1,107 @@
+# 📱 Ezitech Internship Management Portal
 
+[![Flutter Version](https://img.shields.io/badge/Flutter-3.0+-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
+[![Material UI](https://img.shields.io/badge/UI-Material%203-795548?logo=materialdesign&logoColor=white)](https://m3.material.io)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-```md
-# 📱 Internship Portal (Flutter App)
-
-A modern Flutter-based Internship Management Portal developed for EZITECH internship task.  
-The app includes Dashboard, Reports, Invoices, and other management modules with a clean UI.
-
----
-
-## 🚀 Features
-
-- 📊 Dashboard with overview stats
-- 👨‍🎓 Intern management UI
-- 📈 Reports with charts and analytics
-- 🧾 Invoice management screen
-- 🎨 Clean and responsive UI
-- 📱 Cross-platform (Android / iOS / Web)
+A high-fidelity, feature-rich Flutter application designed for managing internships at **Ezitech Solutions**. This portal serves as a central hub for admins to track intern progress, manage projects, and handle financial reporting.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Key Modules
 
-- Flutter
-- Dart
-- Google Fonts
-- fl_chart (for graphs)
-- Material Design UI
-
----
-
-## 📸 Screenshots
-
-> Add your app screenshots inside a folder named `screenshots/`
-
-### Dashboard
-![Dashboard](screenshots/dashboard_1.png)
-![Dashboard](screenshots/dashboard_2.png)
-
-### Reports
-![Reports](screenshots/reports_1.png)
-![Reports](screenshots/reports_2.png)
-
-### Invoices
-![Invoices](screenshots/invoices_1.png)
-![Invoices](screenshots/invoices_2.png)
+- **📊 Management Dashboard**: Real-time overview of key performance indicators (KPIs).
+- **📉 Advanced Reporting**: Integrated `fl_chart` analytics for intern check-ins and project health.
+- **👨‍🎓 Intern Tracking**: Comprehensive table-view for monitoring task completion and rank-based leaderboards.
+- **🧾 Invoice System**: Full-cycle invoice management with status tracking (Paid/Pending/Overdue).
+- **💬 Collaboration Hub**: Real-time chat module for project-specific discussions.
 
 ---
 
-## 📁 Project Structure
+## 📸 Visual Interface
 
-```
+### Dashboard View
 
+| Dashboard |
+| :---: |
+| ![Dashboard](screenshots/dashboard_1.png)<br>![Dashboard](screenshots/dashboard_2.png) |
+
+---
+
+### Reports & Analytics
+
+| Reports |
+| :---: |
+| ![Reports](screenshots/reports_1.png)<br>![Reports](screenshots/reports_2.png) |
+
+---
+
+### Invoices List
+
+| Invoices |
+| :---: |
+| ![Invoices](screenshots/invoices_1.png)<br>![Invoices](screenshots/invoices_2.png) |
+## 🛠️ Technical Implementation
+
+### Core Built With
+- **Language**: [Dart](https://dart.dev/)
+- **Framework**: [Flutter](https://flutter.dev/)
+- **Typography**: [Google Fonts (Inter)](https://fonts.google.com/specimen/Inter)
+- **Icons**: [Lucide Icons](https://lucide.dev/)
+- **Charts**: [FL Chart](https://pub.dev/packages/fl_chart)
+
+### Project Architecture
+```text
 lib/
-├── main.dart
-├── pages/
-│    ├── dashboard_page.dart
-│    ├── reports_page.dart
-│    ├── invoices_page.dart
-
-````
-
----
-
-## ▶️ Getting Started
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/msaadirfan/EZITECH_intern_portal.git
-````
-
-### 2. Install dependencies
-
-```bash
-flutter pub get
-```
-
-### 3. Run the app
-
-```bash
-flutter run
+├── main.dart            # Application entry point & theme configuration
+├── pages/               # Functional UI Modules
+│   ├── dashboard_page.dart  # KPI cards and activity feeds
+│   ├── reports_page.dart    # Charts, Analytics, and Leaderboards
+│   └── invoices_page.dart   # Financial tracking and management
+└── components/          # Reusable UI widgets (Buttons, Cards, Badges)
 ```
 
 ---
 
-## 📂 Adding Screenshots
+## 🚀 Installation & Setup
 
-1. Create a folder in root directory:
+### Prerequisites
+- Flutter SDK (v3.0.0 or higher)
+- Android Studio / VS Code with Flutter extension
 
-```
-screenshots/
-```
+### Steps
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/msaadirfan/EZITECH_intern_portal.git
+   cd EZITECH_intern_portal
+   ```
 
-2. Add images like:
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
 
-```
-screenshots/dashboard.png
-screenshots/reports.png
-screenshots/invoices.png
-```
-
-3. Make sure names match README.
+3. **Launch the application**
+   ```bash
+   # Run on connected device
+   flutter run
+   ```
 
 ---
 
-## 👨‍💻 Developer
+## 📂 Handling Screenshots
+To make the README images visible on your GitHub profile:
+1. Create a `screenshots/` directory in the root.
+2. Place your PNG/JPG files inside.
+3. Ensure the filenames match the links in this README (e.g., `dashboard.png`).
 
-* Developed as Internship Task
-* EZITECH Internship Portal UI Project
+---
+
+## 👨‍💻 Author
+**M. Saadi Irfan**  
+*Front-end Developer & Flutter Enthusiast*
 
 ---
 
 ## 📄 License
-
-This project is for educational/internship purposes.
-
-```
-
----
-
-# 📌 IMPORTANT (so images actually show on GitHub)
-
-### You MUST:
-- Create folder: `screenshots/`
-- Add images inside it
-- Name them exactly:
-  - dashboard.png
-  - reports.png
-  - invoices.png
-
----
-
-# 🚀 If you want next level upgrade
-I can also:
-- design a **beautiful README banner**
-- add GitHub badges (Flutter version, build status, etc.)
-- make it look like a **real production SaaS project**
-
-Just say 👍
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
